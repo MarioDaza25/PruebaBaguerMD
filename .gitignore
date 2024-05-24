@@ -26,4 +26,4 @@ wwwroot/css/site.css.map
 appsettings.Development.json
 appsettings.Production.json
 
-# Dependiendo del entorno y tecnologías usadas, puedes necesitar agregar más aquí
+.gitignore
