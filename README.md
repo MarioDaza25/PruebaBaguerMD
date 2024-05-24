@@ -20,7 +20,7 @@ abrir el proyecto e ingresar appsettings.json y colocar las credenciales user y 
 
 
 
-![Json settings](./wwwroot\images\imgDoc\db.png)
+![Json settings](./wwwroot/images/imgDoc/db.png)
 Crear la migración con el siguiente comando en la terminal de vsc 
 ```
   dotnet ef migrations add InitialCreate
