@@ -36,8 +36,26 @@ Ejecución de la aplicacion desde la raiz del proyecto.
  dotnet watch run 
 ```
 
-## Tecnologías Utilizadas
+### Diseño Login
+Diseño de login, con campos de usuario, contraseña, registro e iniciar sesion.
+##Iniciar sesion para continuar
+![Json settings](./wwwroot/images/imgDoc/ingreso.png)
 
+### Diseñño Registro
+Diseño de registro con campos solicitados
+![Json settings](./wwwroot/images/imgDoc/registro.png)
+
+### Modulo Usuarios
+Modulo de usuarios con funciones para agregar, editar, eliminar y listar usuarios, registrados en la base de datos.
+Agregue usuarios llenando los datos y haciendo click en el boton señalado
+![Json settings](./wwwroot/images/imgDoc/usuarios.png)
+
+### Modulo Empleados
+Modulo de empleados que permite listar informacion de personas generado por la API https://randomuser.me/ y filtrar segun su nacionalidad como lo indica l aimagen
+![Json settings](./wwwroot/images/imgDoc/Empleados.png)
+
+
+## Tecnologías Utilizadas
 - Frontend: HTML, CSS, JavaScript
 - Backend: C#,.NET Core: 
 - Base de Datos: MySQL
