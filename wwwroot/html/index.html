@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Document</title>
+</head>
+
+<body class="BodyIndex">
+  <div class="container">
+    <ul class="nav nav-pills mb-3 border-bottom" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Usuarios</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+          type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Empleados</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <h5 class="text-center title-Emp">CRUD de Usuarios</h5>
+        <div class="divFormulario">
+          <form action="#" class="formulario">
+            <input type="text" id="nombre" class="input-form" placeholder="Nombre">
+            <input type="text" id="correo" class="input-form" placeholder="Correo">
+            <input type="text" id="usuario" class="input-form" placeholder="Usuario">
+          </form>
+          <a href="#" id="agregar">
+            <img class="img-crud agregar" src="../images/log.svg" alt="directorio"> 
+          </a>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th> # </th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Usuario</th>
+              <th>Editar</th>
+              <th>Eliminar</th>
+            </tr>
+          </thead>
+          <tbody id="tbodyTable">
+            <tr>
+              <td>1</td>
+              <td>Nombre1</td>
+              <td>Correo1</td>
+              <td>usuario12345</td>
+              <td><img class="img-crud" src="../images/icons8-editar.svg" alt=""></td>
+              <td><img class="img-crud" src="../images/icons8-eliminar.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Nombre2</td>
+              <td>Correo2</td>
+              <td>usuario258</td>
+              <td><img class="img-crud" src="../images/icons8-editar.svg"" alt=""></td>
+              <td><img class="img-crud" src="../images/icons8-eliminar.svg" alt=""></td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <h5 class="text-center title-Emp">Lista de Empleados</h5>
+        <input type="text" class="input-form filt" id="nacionalidad" placeholder="Ingrese la nacionalidad...">
+
+        <table>
+          <thead>
+            <tr>
+              <th> # </th>
+              <th>Imagen</th>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Nacionalidad</th>
+              <th>Detalle</th>
+            </tr>
+          </thead>
+          <tbody id="userTableBody">
+            <tr>
+              <td>1</td>
+              <td><img src="" alt="Imagen Persona 1"></td>
+              <td>Nombre1</td>
+              <td>Apellido1</td>
+              <td><a class="details-link" href="detalle_persona1.html"><img src="../images/icons8-detalles-48.png" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><img src="" alt="Imagen Persona 2"></td>
+              <td>Nombre2</td>
+              <td>Apellido2</td>
+              <td><a class="details-link" href="detalle_persona2.html"><img src="../images/icons8-detalles-48.png" alt=""></a></td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="../js/Users.js"></script>
+  <script src="../js/Emp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
