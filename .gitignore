@@ -1,0 +1,29 @@
+# Archivos de sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Directorios
+bin/
+obj/
+node_modules/
+wwwroot/lib/
+wwwroot/css/site.css.map
+*.csproj.user
+*.dbmdl
+*.jfm
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.pidb
+*.ide
+*.ide-wal
+*.ldb
+*.opendb
+*.sum
+*.sln.docstates
+appsettings.Development.json
+appsettings.Production.json
+
+# Dependiendo del entorno y tecnologías usadas, puedes necesitar agregar más aquí
