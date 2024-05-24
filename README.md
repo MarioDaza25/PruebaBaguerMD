@@ -41,7 +41,7 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 ## Diseño Login <i class="fas fa-user"></i>
 Diseño de login, con campos de usuario, contraseña, registro e iniciar sesion.
 
-### Click en Iniciar sesion para continuar
+### Click en Iniciar sesion para continuar 🖱️
 ![Json settings](./wwwroot/images/imgDoc/ingreso.png)
 
 ## Diseño Registro <i class="fas fa-pencil-alt">
@@ -52,7 +52,7 @@ Diseño de registro con campos solicitados
 ## Modulo Usuarios 👥
 Modulo de usuarios con funciones para agregar, editar, eliminar y listar usuarios, registrados en la base de datos.
 
-### Agregue usuarios llenando los datos y haciendo click en el boton señalado
+### Agregue usuarios llenando los datos y haciendo click en el boton señalado 🖱️
 ![Json settings](./wwwroot/images/imgDoc/usuarios.png)
 
 ## Modulo Empleados 👥
