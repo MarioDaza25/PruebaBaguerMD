@@ -13,7 +13,7 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 
 #### Ejecucion del Proyecto:
 🔴 Clonar el Repositorio desde la terminal 
-```
+``` bash
   git clone https://github.com/MarioDaza25/PruebaBaguerMD.git
 ```
 🔴 abrir el proyecto e ingresar appsettings.json y colocar las credenciales user y password de MySql
@@ -23,17 +23,17 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 ![Json settings](./wwwroot/images/imgDoc/db.png)
 
 🔴 Crear la migración con el siguiente comando en la terminal de vsc 
-```
+``` bash
   dotnet ef migrations add InitialCreate
 ```
 
 🔴 Despues generamos el comando de actualizacion para enviar a la base de datos.
-```
+``` bash
   dotnet ef database update 
 ```
 
 🔴 Ejecución de la aplicacion desde la raiz del proyecto.
-```
+``` bash
  dotnet watch run 
 ```
 
@@ -66,8 +66,12 @@ Modulo de empleados que permite listar informacion de personas generado por la A
 - Base de Datos: MySQL
 - Otras herramientas: Bootstrap
 
-## Autor
+## Estructura del Proyecto
+- Controllers: Contiene los controladores ASP.NET Core.
+- Models: Contiene las clases de modelo de datos.
+- wwwroot: Contiene los archivos front (HTML, JS, CSS, imágenes).
 
+## Autor
 - Mario Daza
 
 
