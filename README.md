@@ -8,7 +8,7 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 
 - **Gestión de Usuarios:** La sección de Usuarios permite realizar operaciones CRUD sobre los usuarios, incluyendo la adición, edición y eliminación de usuarios.
 - **Lista de Empleados:** En la sección de Empleados, se muestra una lista de empleados con detalles básicos y enlaces para ver detalles adicionales de cada empleado. Tambien permite filtrr los empleados por nacioanlidad
-- ** Diseño de Login y Registro
+- **Diseño de Login y Registro
 
 ## Configuración ⚙️
 
