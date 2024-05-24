@@ -17,7 +17,7 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 ``` bash
   git clone https://github.com/MarioDaza25/PruebaBaguerMD.git
 ```
-🔴 abrir el proyecto e ingresar appsettings.json y colocar las credenciales user y password de MySql
+🔴 abrir el proyecto e ingresar appsettings.json y colocar las credenciales server,user,password y database de MySql
 
 
 
