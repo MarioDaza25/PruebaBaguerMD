@@ -1,33 +1,29 @@
+  document.addEventListener("DOMContentLoaded",async function (){
 
+  const nacion = document.getElementById('nacionalidad');
 
-
-
-document.addEventListener('DOMContentLoaded', async function() {
-  const nacionalidad = document.getElementById('nacionalidad');
-
-  nacionalidad.addEventListener('input', function(event) {
-    const busqueda = event.target.value.trim().toUpperCase(); 
-    fetch(`https://randomuser.me/api/?results=5&nat=${busqueda}`)
+  nacion.addEventListener('input', function(e) {
+    const datos = e.target.value.trim().toUpperCase(); 
+    fetch(`https://randomuser.me/api/?results=5&nat=${datos}`)
       .then(response => response.json())
       .then(data => {
-        const tableBody = document.getElementById('userTableBody');
-        tableBody.innerHTML = ''; 
-
-        data.results.forEach((user, index) => {
+        const tabBody = document.getElementById('usertab');
+        tabBody.innerHTML = ''; 
+        data.results.forEach((usuario, ind) => {
           const row = document.createElement('tr');
           row.innerHTML = `
-            <td>${index + 1}</td>
-            <td><img src="${user.picture.thumbnail}" alt="Imagen de ${user.name.first}"></td>
-            <td>${user.name.first}</td>
-            <td>${user.name.last}</td>
-            <td>${user.nat}</td>
-            <td><a class="details-link" href="detalle_persona${index + 1}.html"><img src="../images/icons8-detalles-48.png" alt=""></a></td>
+            <td>${ind + 1}</td>
+            <td><img src="${usuario.picture.thumbnail}" alt=""></td>
+            <td>${usuario.name.first}</td>
+            <td>${usuario.name.last}</td>
+            <td>${usuario.nat}</td>
+            <td><a href=""><img src="../images/icons8-detalles-48.png" alt=""></a></td>
           `;
-          tableBody.appendChild(row);
+          tabBody.appendChild(row);
         });
       })
       .catch(error => {
-        console.error('Error al obtener los usuarios:', error);
+        console.error('Error al obtener los datos:', error);
       });
   });
-});
+ })
