@@ -12,26 +12,27 @@ Este proyecto es una aplicación web desarrollada como parte de un ejercicio de 
 ## Configuración
 
 #### Ejecucion del Proyecto:
-Clonar el Repositorio desde la terminal 
+🔴 Clonar el Repositorio desde la terminal 
 ```
   git clone https://github.com/MarioDaza25/PruebaBaguerMD.git
 ```
-abrir el proyecto e ingresar appsettings.json y colocar las credenciales user y password de MySql
+🔴 abrir el proyecto e ingresar appsettings.json y colocar las credenciales user y password de MySql
 
 
 
 ![Json settings](./wwwroot/images/imgDoc/db.png)
-Crear la migración con el siguiente comando en la terminal de vsc 
+
+🔴 Crear la migración con el siguiente comando en la terminal de vsc 
 ```
   dotnet ef migrations add InitialCreate
 ```
 
-Despues generamos el comando de actualizacion para enviar a la base de datos.
+🔴 Despues generamos el comando de actualizacion para enviar a la base de datos.
 ```
   dotnet ef database update 
 ```
 
-Ejecución de la aplicacion desde la raiz del proyecto.
+🔴 Ejecución de la aplicacion desde la raiz del proyecto.
 ```
  dotnet watch run 
 ```
