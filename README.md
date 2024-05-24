@@ -53,6 +53,7 @@ Diseño de registro con campos solicitados
 Modulo de usuarios con funciones para agregar, editar, eliminar y listar usuarios, registrados en la base de datos.
 
 ### Agregue usuarios llenando los datos y haciendo click en el boton señalado 🖱️
+Se crearon los usuarios 1 y 2 para simular el diseño desde HTML, los siguientes ya son de la base de datos.
 ![Json settings](./wwwroot/images/imgDoc/usuarios.png)
 
 ## Modulo Empleados 👥
